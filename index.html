@@ -73,7 +73,8 @@
       overflow:hidden;
       box-shadow:0 20px 40px rgba(0,0,0,.15);
     }
-    .video-wrap iframe{
+    .video-wrap iframe,
+    .video-wrap video{
       position:absolute;
       top:0;left:0;
       width:100%;
@@ -192,18 +193,28 @@
   </div>
 </section>
 
+<!-- ▶ 영상 섹션 1 (iframe) -->
 <section>
   <div class="container">
-    <h2>실제 사용 시연 영상</h2>
-    <p style="margin-top:12px;color:#374151;">
-      위험요인 입력 → AI 분석 → 개선대책·안전교육 문구 자동 생성 실제 화면
-    </p>
-
+    <h2>시연 영상 ① — 웹 데모</h2>
     <div class="video-wrap">
       <iframe
         src="https://es1063122-creator.github.io/AI-Excel/"
         allowfullscreen>
       </iframe>
+    </div>
+  </div>
+</section>
+
+<!-- ▶ 영상 섹션 2 (mp4) -->
+<section>
+  <div class="container">
+    <h2>시연 영상 ② — 설치형 Demo (mp4)</h2>
+    <div class="video-wrap">
+      <video controls>
+        <source src="https://raw.githubusercontent.com/es1063122-creator/AI-Excel/main/aiEcxel.mp4" type="video/mp4">
+        브라우저가 동영상을 지원하지 않습니다.
+      </video>
     </div>
   </div>
 </section>
@@ -222,11 +233,10 @@
         ※ 1달 무료체험판은 자동 결제되지 않습니다.
       </p>
 
-      <!-- ✅ 두 버튼 모두 같은 Google Form -->
       <div>
         <a
           class="btn"
-          href="https://forms.gle/FXgMXKhsX8oLJpWD8"
+          href="https://forms.gle/여기에_실제_구매폼_URL"
           target="_blank"
           rel="noopener noreferrer">
           구매 신청하기
@@ -234,7 +244,7 @@
 
         <a
           class="btn outline"
-          href="https://forms.gle/FXgMXKhsX8oLJpWD8"
+          href="https://forms.gle/여기에_실제_구매폼_URL"
           target="_blank"
           rel="noopener noreferrer">
           1달 무료체험판 신청
@@ -259,7 +269,7 @@
 </section>
 
 <footer>
-  © 2025 김대홍 | AI 위험성평가 자동화 솔루션 010-9320-4254 es5183@naver.com<br>
+  © 2025 김대홍 | AI 위험성평가 자동화 솔루션<br>
   본 제품은 법적 책임을 대체하지 않습니다.
 </footer>
 
